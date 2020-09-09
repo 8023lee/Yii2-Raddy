@@ -1,0 +1,23 @@
+{
+    "name": "benbanfa/raddy",
+    "description": "benbanfa/raddy",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"benbanfa\\raddy\\": "src"}
+    },
+    "require": {
+        "dmstr/yii2-adminlte-asset": "^2.6"
+    },
+    "suggest": {
+        "kartik-v/yii2-date-range": "用于时间类型的范围筛选",
+        "kartik-v/yii2-field-range": "用于范围筛选"
+    }
+}

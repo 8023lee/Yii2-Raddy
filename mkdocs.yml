@@ -1,0 +1,8 @@
+site_name: Raddy
+nav:
+    - 首页: index.md
+    - 资源: resources.md
+    - 字段: fields.md
+    - 筛选: filters.md
+    - 输入类型: inputs.md
+    - 最佳实践: best-practice.md
